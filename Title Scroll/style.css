@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+    background: white;
+}
+h2{
+    font-size: 5rem;
+}
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+    margin: 5rem;
+}
+.logo{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size: 1.5rem;
+    transform: translate(-50%, -50%) scale(6);
+}
+.logo img{
+    margin-top: -0.5rem;
+    height: 3rem;
+    width: 3rem;
+}
+.home{
+    height: 100vh;
+    z-index: 100;
+}
+.first-page{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background: rgb(63, 62, 62);
+    color: cornsilk;
+}
+.sometext{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.page1{
+    transform: translateY(50%); 
+}
+.first-page img{
+    height: 50%;
+    width: 50%;
+}
+.first-page h2{
+    font-size: 2rem;
+}
+.second-page{
+    background: rgb(63, 62, 62);
+    color: cornsilk;
+    display: flex;
+    height: 100vh;
+}
+.second-page img{
+    height: 50%;
+    width: 50%;
+}
+.second-page h2{
+    font-size: 2rem;
+}
