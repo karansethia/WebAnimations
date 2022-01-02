@@ -2,7 +2,7 @@ let timeLine  = gsap.timeline({
     scrollTrigger: {
         trigger: '.home',
         start: '0%',
-        end: '100%',
+        end: '80%',
         scrub: 1,
     },
 });
@@ -10,7 +10,7 @@ let timeeLine2 = gsap.timeline({
     scrollTrigger: {
         trigger: '.home',
         start: '0%',
-        end: '100%',
+        end: '80%',
         scrub: 1,
     },
 })
@@ -18,7 +18,7 @@ let timeeLine3 = gsap.timeline({
     scrollTrigger: {
         trigger: '.home',
         start: '0%',
-        end: '300%',
+        end: '300%', //add another 1005 according to the nmber of sections
         scrub: 1,
         pin: true,
         pinSpacing: false,
