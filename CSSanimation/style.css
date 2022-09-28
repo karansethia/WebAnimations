@@ -1,0 +1,41 @@
+.parent{
+    display: flex;
+    width: 1500px;
+}
+.div1{
+    height: 500px;
+    width: 500px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    transition: 1s;
+    /* transform: translate(200px,3px);
+    transform:rotateZ(90deg); */
+}
+.div2{
+    height: 500px;
+    width: 500px;
+    background-color: rgb(5, 197, 255);
+    border-radius: 10px;
+    transition: 1s;
+}
+.div3{
+    display: flex;
+    justify-content: end;
+    height: 500px;
+    width: 500px;
+    background-color: rgb(255, 9, 9);
+    border-radius: 10px;
+    transition: 1s;
+}
+.animate:hover{
+    width:750px;
+}
+.text{
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+img{
+    width: 40px;
+    height: 40px;
+}
